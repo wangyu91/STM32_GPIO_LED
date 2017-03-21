@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1540683832</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\MDK_keil\nrf51_sdk\examples\ble_peripheral\nrf5-ble-tutorial-characteristic-master\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\ble_service_test.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble_service_test.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\MDK_keil\nrf51_sdk\examples\ble_peripheral\ble_app_hrs\pca10056\s132\iar\_build\ble_app_hrs_pca10056_s132.map</file>
+      <file>$PROJ_DIR$\..\..\..\MDK_keil\nrf51_sdk\examples\ble_peripheral\ble_app_hrs\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\MDK_keil\nrf51_sdk\examples\ble_peripheral\ble_app_hrs\pca10056\s132\iar\ble_app_hrs_iar_nRF5x.icf</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\MDK_keil\nrf51_sdk\examples\ble_peripheral\nrf5-ble-tutorial-characteristic-master\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\MDK_keil\nrf51_sdk\examples\ble_peripheral\nrf5-ble-tutorial-characteristic-master\main.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
